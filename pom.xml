@@ -71,7 +71,7 @@
 	</profile>
 	
 	<profile>
-		<id>End To End</id>
+		<id>end-to-end</id>
 		<build>
 		<pluginManagement>
 			<plugins>
