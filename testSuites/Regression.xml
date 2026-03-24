@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="tests" thread-count="5">
+
+<listeners>
+	<listener class-name="base.Listeners"/>
+</listeners>
+  <!-- 🔐 Authentication Tests -->
+  <test name="Authentication Tests">
+    <groups>
+      <run>
+        <include name="auth"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Authentication_Login_Register_Logout.TC01_Register_User"/>
+      <class name="Authentication_Login_Register_Logout.TC02_Login_Using_Correct_Email_Password"/>
+      <class name="Authentication_Login_Register_Logout.TC03_Login_Using_Incorrect_Email_Password"/>
+      <class name="Authentication_Login_Register_Logout.TC04_Logout_User"/>
+      <class name="Authentication_Login_Register_Logout.TC05_Register_User_With_Existing_Email"/>
+    </classes>
+  </test>
+
+  <!-- 🛒 Cart & Checkout -->
+  <test name="Cart_Checkout Tests">
+    <groups>
+      <run>
+        <include name="cart"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Cart.TC12_Add_To_Cart"/>
+      <class name="testCases.TC20_Proceed_To_Checkout"/>
+    </classes>
+  </test>
+
+  <!-- 🔍 Product & Search -->
+  <test name="Product Tests">
+    <groups>
+      <run>
+        <include name="product"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Product_Search.TC08_Verify_All_Products_And_Product_Detail_Page"/>
+      <class name="Product_Search.TC09_Search_Product"/>
+    </classes>
+  </test>
+
+  <!-- 📩 Contact & Static Pages -->
+  <test name="Static Pages Tests">
+    <groups>
+      <run>
+        <include name="static"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Contact_StaticPages.TC06_Contact_Us_Form"/>
+      <class name="Contact_StaticPages.TC07_Verify_TestCasesPage"/>
+      <class name="testCases.TC10_Verify_Subscription_InHomepage"/>
+    </classes>
+  </test>
+
+  <!-- 🔄 End-to-End -->
+  <test name="End To End Tests">
+    <groups>
+      <run>
+        <include name="e2e"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="endToEnd.EndToEnd_PlaceOrder"/>
+      <class name="endToEnd.E2E"/>
+    </classes>
+  </test>
+
+</suite>

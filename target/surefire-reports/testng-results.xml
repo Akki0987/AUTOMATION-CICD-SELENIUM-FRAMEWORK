@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T14:44:11 IST" name="Automation Suite" finished-at="2026-03-24T14:46:13 IST" duration-ms="122688">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T14:44:11 IST" name="End To End Tests" finished-at="2026-03-24T14:46:13 IST" duration-ms="122688">
+      <class name="testCases.endToEnd.E2E_Json_POJO_DataProvider">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:44:11 IST" name="launchApplication" finished-at="2026-03-24T14:44:20 IST" duration-ms="9210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="endToend(pojo.UsersData2)[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:44:20 IST" name="endToend" data-provider="getJsonDataPOJO" finished-at="2026-03-24T14:44:49 IST" duration-ms="28430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.UsersData2@5c676e52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToend -->
+        <test-method is-config="true" signature="closeUp()[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:44:49 IST" name="closeUp" finished-at="2026-03-24T14:44:49 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:44:49 IST" name="launchApplication" finished-at="2026-03-24T14:44:53 IST" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="endToend(pojo.UsersData2)[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:44:53 IST" name="endToend" data-provider="getJsonDataPOJO" finished-at="2026-03-24T14:45:23 IST" duration-ms="29834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.UsersData2@2a2730c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToend -->
+        <test-method is-config="true" signature="closeUp()[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:45:23 IST" name="closeUp" finished-at="2026-03-24T14:45:23 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:45:23 IST" name="launchApplication" finished-at="2026-03-24T14:45:31 IST" duration-ms="7541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="endToend(pojo.UsersData2)[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:45:31 IST" name="endToend" data-provider="getJsonDataPOJO" finished-at="2026-03-24T14:46:13 IST" duration-ms="42235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.UsersData2@5d5a9620]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToend -->
+        <test-method is-config="true" signature="closeUp()[pri:0, instance:testCases.endToEnd.E2E_Json_POJO_DataProvider@24569dba]" started-at="2026-03-24T14:46:13 IST" name="closeUp" finished-at="2026-03-24T14:46:13 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+      </class> <!-- testCases.endToEnd.E2E_Json_POJO_DataProvider -->
+    </test> <!-- End To End Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

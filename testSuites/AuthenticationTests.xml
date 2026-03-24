@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="methods" thread-count="5">
+
+<listeners>
+	<listener class-name="base.Listeners"/>
+</listeners>
+  <!-- 🔐 Authentication Tests -->
+  <test name="Authentication Tests">
+    <groups>
+      <run>
+        <include name="auth"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.Authentication_Login_Register_Logout.TC01_Register_User"/>
+      <class name="testCases.Authentication_Login_Register_Logout.TC02_Login_Using_Correct_Email_Password"/>
+      <class name="testCases.Authentication_Login_Register_Logout.TC03_Login_Using_Incorrect_Email_Password"/>
+      <class name="testCases.Authentication_Login_Register_Logout.TC04_Logout_User"/>
+      <class name="testCases.Authentication_Login_Register_Logout.TC05_Register_User_With_Existing_Email"/>
+    </classes>
+  </test>
+
+</suite>
