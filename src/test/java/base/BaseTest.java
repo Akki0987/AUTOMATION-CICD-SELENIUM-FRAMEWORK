@@ -36,12 +36,12 @@ public class BaseTest {
 	    	
 	  
 	    	
-	    if("headless".equalsIgnoreCase(System.getProperty("mode")))
+	    if(browser.equalsIgnoreCase("chrome"))
 	    	{
 //	    		Chrome code 
 	    		ChromeOptions options = new ChromeOptions();
 	    		
-	    		if(System.getProperty("mode").equalsIgnoreCase("headless"))
+	    		if("headless".equalsIgnoreCase(System.getProperty("mode")))
 	    		{
 	    			options.addArguments("--headless");
 	    		}
@@ -72,7 +72,7 @@ public class BaseTest {
 		        // Brave browser binary path
 		        options.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
 	    		
-	    		if(System.getProperty("mode").equalsIgnoreCase("headless"))
+	    		if("headless".equalsIgnoreCase(System.getProperty("mode")))
 	    		{
 	    			options.addArguments("--headless");
 	    		}
