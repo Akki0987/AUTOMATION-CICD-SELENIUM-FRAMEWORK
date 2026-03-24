@@ -36,7 +36,7 @@ public class BaseTest {
 	    	
 	  
 	    	
-	    	if(browser.equalsIgnoreCase("chrome"))
+	    if("headless".equalsIgnoreCase(System.getProperty("mode")))
 	    	{
 //	    		Chrome code 
 	    		ChromeOptions options = new ChromeOptions();
