@@ -6,10 +6,17 @@
 	<artifactId>Selenium_Project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-
+<!-- Just Did Basic Changes -->
 	<dependencies>
 		<!-- Source:
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!-- Source: https://mvnrepository.com/artifact/org.openapitools/jackson-databind-nullable -->
+<dependency>
+    <groupId>org.openapitools</groupId>
+    <artifactId>jackson-databind-nullable</artifactId>
+    <version>0.2.10</version>
+    <scope>compile</scope>
+</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
